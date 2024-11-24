@@ -10,8 +10,6 @@ const Statistics = (props) => {
   )
 }
 
-console.log(props.good)
-
 const StatisticLine = ({ text, value }) => {
   return (
         <><tbody><tr><td>{text}</td><td>{value}</td></tr></tbody></>
